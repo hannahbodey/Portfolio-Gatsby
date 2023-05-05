@@ -1,0 +1,23 @@
+.site-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  // background-color: #fff;
+  // padding-bottom: 1rem;
+  // background-color: #D3D3D3;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .github {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+  }
+  .footer-logo {
+    height: 2.5rem;
+  }
+}

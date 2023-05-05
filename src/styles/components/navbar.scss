@@ -1,0 +1,32 @@
+.navbar-container {
+  width: 65%;
+  @media (min-width: 768px){
+    width: 50%;
+  }
+  @media (min-width: 900px){
+    width: 30%;
+  }
+}
+
+.navbar-link {
+  text-decoration: none;
+  margin-left: 4%;
+}
+
+.brand {
+  @media (max-width: 768px){
+    margin-left: 0;
+  }
+  margin-left: 4rem;
+}
+
+.navbar {
+  background-color: #836065;
+  a {
+    color: #fff;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+

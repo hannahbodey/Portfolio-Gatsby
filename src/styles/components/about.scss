@@ -1,0 +1,113 @@
+.language-icon {
+  padding-top: 0.5rem;
+  height: 3rem;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  .individual-skill, .individual-language-skill {
+    background-color: #fff;
+    margin: 0.15rem;
+    border: 0.15rem solid #54000d;
+    border-radius: 0.15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .individual-language-skill {
+    padding: 0.15rem;
+  }
+  .individual-skill {
+    @media (max-width: 768px){
+      width: 25%;
+      .language-icon {
+        height: 2rem;
+        max-width: 5rem;
+      }
+      .languages-label {
+        font-size: small;
+      }
+    }
+    @media (min-width: 769px){
+      width: 20%;
+      .language-icon {
+        max-width: 8rem;
+      }
+    }
+  }
+    .languages-label {
+      margin-bottom: 0;
+    }
+  }
+
+
+.single-experience {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  h5 {
+    margin-left: 0.25rem;
+  }
+  .job-logo {
+    max-width: 3rem;
+    margin-left: 0.25rem;
+  }
+}
+
+.work-education-experience, .additional-skills-container, .title-container, .projects-title-container {
+  background-color: #fff;
+  border: 0.25rem solid #54000d;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.individual-experience {
+// &:not(:last-of-type) {
+  border-top: 0.15rem dashed #54000d;
+// }
+  padding-top: 0.75rem;
+}
+
+.bio-container, .personal-interests-container {
+  background-color: #fff;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border: 0.15rem dashed #54000d;
+  border-radius: 0.15rem;
+}
+
+.coding-languages-title {
+  margin-top: 0.5rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.headshot {
+  height: 8rem;
+  border-radius: 1rem;
+  @media (max-width: 768px){
+    margin: 0 1.5rem;
+    height: 4rem;
+  }
+  @media (min-width: 769px){
+    margin: 0 3rem;
+  }
+}
+
+.title-container {
+  display: flex;
+  @media (max-width: 768px){
+    .title-pic-container {
+      h1, h2 {
+        font-size: large;
+      }
+    }
+  }
+}
